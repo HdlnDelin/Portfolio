@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Playfair+Display:wght@400;700&display=swap');
+
+* {
+
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --jungkook: #515159;
+  --kimtaehyung: #E2AD9F;
+  --parkjimin: #9DB5B4;
+  --j-hope: #DADBDD;
+}
+
+body {
+  
+  font-family: 'Playfair Display', serif;
+  color: var(--jungkook);
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+}
+.medsos {
+  padding: 5px 0;
+  background-color: var(--parkjimin);
+}
+
+.medsos img {
+  padding: 0 8px;
+}
+
+.containers {
+  width: 80%;
+  margin:0 auto;
+  border: 1px solid;
+  
+}
+header {
+  border: 1px solid;
+  display:flex;
+  justify-content: space-between;
+  background-color: var(--parkjimin);
+} 
+
+.header-right a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 8px;
+  color: var(--jungkook);
+  line-height: 72px;
+  font-family: Montserrat;
+  font-weight: 500;
+
+}
+
+.header-right a:hover {
+  background-color: var(--kimtaehyung);
+  color: var(--j-hope);
+  line-height: 72px;
+}
+.header-right img {
+  padding: 24px 8px;
+}
+.header-right img:hover {
+  cursor: pointer;
+  background-color: var(--kimtaehyung);
+}
+.header-right {
+  display:flex;
+  align-items: center;
+}
+
+
+header h1 {
+  padding: 15px;
+  float :left;
+}
+
+.home{
+  background-image:url(/img/banner13.png);
+  height:500px;
+  margin: 0 134px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.top-wrapper {
+  display: flex;
+  justify-content:space-between;
+  padding: 0 145px;
+  margin-top: 32px;
+  padding-top: 80px;
+  margin-bottom: 40px;
+
+}
+
+.content {
+  order: 1;
+  flex: 3;
+  margin-left: 32px;
+}
+.content h1 {
+
+  /* logo */
+  
+  font-family: Playfair Display;
+  
+  font-weight: 700;
+  font-size: 48px;
+  align-items: center;
+  text-align: center;
+  
+
+
+
+}
+
+.content p {
+/* Header 1 */
+
+  font-family: Montserrat;
+  
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: justify;
+  letter-spacing: -0.02em;
+
+
+}
+
+.image {
+  order: 0;
+  flex:1;
+  
+}
+
+.image img{
+  width:350px;
+}
+
+.content-align {
+  order: 1;
+  flex: 2;
+  margin-left: 32px;
+}
+
+.heading {
+  display:flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin:45px 134px;
+}
+
+.education {
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--parkjimin); 
+  
+}
+  
+.educations {
+  margin-top: 120px;
+  padding-top: 80px;
+  
+  
+}
+
+
+.resume {
+  width: 300px;
+  
+}
+
+.contact-form {
+  padding-top: 60px;
+  margin-top: 260px;
+
+}
+
+input {
+  border-radius: 15px;
+  height: 40px;
+  padding:0 8px;
+  width: 320px;
+  margin:8px 0;
+}
+textarea {
+  border-radius: 15px;
+  padding:0 8px;
+  height: 96px;
+  width: 320px;
+  margin: 8px 0;
+}
+
+.button {
+  width: 219px;
+  height: 24px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background-color: var(--parkjimin);
+  margin-top: 80px;
+  color:var(--jungkook);
+  padding: 24px 134px;
+
+  
+}
+.footer h1{
+  font-size: 15px;
+}
+
+.darkmode {
+  color:var(--j-hope);
+  background-color: var(--jungkook);
+}
+
+
+
+
+
