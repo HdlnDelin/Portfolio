@@ -110,14 +110,15 @@ header h1 {
 
 
 .home{
-  background-image:url();
+  background-image:url(./image1/banner11.png);
   height:500px;
-  margin: 0 134px;
+  margin: 0;
   justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
   width: 100%;
+  background-size: cover;
   
 }
 
