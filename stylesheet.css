@@ -22,13 +22,30 @@ body {
 a {
   font-family: 'Montserrat', sans-serif;
 }
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--parkjimin);
+  align-items: center;
+}
 .medsos {
   padding: 5px 0;
   background-color: var(--parkjimin);
 }
 
+
 .medsos img {
   padding: 0 8px;
+}
+
+.theme {
+  padding: 5px 8px;
+}
+
+.theme:hover {
+  cursor: pointer;
+  background-color: var(--kimtaehyung);
 }
 
 .containers {
@@ -44,7 +61,7 @@ header {
   background-color: var(--parkjimin);
 } 
 
-.header-right a {
+.navigation a {
   text-decoration: none;
   text-transform: uppercase;
   padding: 0 8px;
@@ -52,41 +69,77 @@ header {
   line-height: 72px;
   font-family: Montserrat;
   font-weight: 500;
-
+  
 }
 
-.header-right a:hover {
+.navigation a:hover {
   background-color: var(--kimtaehyung);
   color: var(--j-hope);
   line-height: 72px;
 }
-.header-right img {
-  padding: 24px 8px;
-}
-.header-right img:hover {
-  cursor: pointer;
-  background-color: var(--kimtaehyung);
-}
-.header-right {
+
+.navigation {
   display:flex;
   align-items: center;
 }
 
+.mobile-nav{
+  position: fixed;
+  bottom:0;
+  background-color:var(--jungkook);
+  z-index: 10;
+  width: 100%;
+  font-size: 25px;
+  display: none;
+  justify-content: space-around;
+  padding:16px 0;
+
+}
+.mobile-nav a{
+  text-decoration: none;
+  color:var(--parkjimin)
+  
+}
+
+
 
 header h1 {
   padding: 15px;
-  float :left;
+  
 }
 
+
 .home{
-  background-image:url(/img/banner13.png);
+  background-image:url();
   height:500px;
   margin: 0 134px;
   justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  
 }
+
+
+
+
+
+
+
+@keyframes home {
+  0% {font-family: "Montserrat, sans-serif";}
+  20% {font-family: "Montserrat, sans-serif";}
+  40% {font-family: "Montserrat, sans-serif";}
+  60% {font-family: "Montserrat, sans-serif";}
+  80% {font-family: "Montserrat, sans-serif";}
+  100% {font-family: "Montserrat, sans-serif";}
+  
+}
+
+
+
+
 
 
 .top-wrapper {
@@ -96,7 +149,7 @@ header h1 {
   margin-top: 32px;
   padding-top: 80px;
   margin-bottom: 40px;
-
+  
 }
 
 .content {
@@ -105,8 +158,6 @@ header h1 {
   margin-left: 32px;
 }
 .content h1 {
-
-  /* logo */
   
   font-family: Playfair Display;
   
@@ -115,14 +166,14 @@ header h1 {
   align-items: center;
   text-align: center;
   
-
-
+  
+  
 
 }
 
 .content p {
-/* Header 1 */
-
+  /* Header 1 */
+  
   font-family: Montserrat;
   
   font-weight: 500;
@@ -228,7 +279,26 @@ textarea {
   background-color: var(--jungkook);
 }
 
+/* Humberger Menu Animation */
+.menu-toggle span:nth-child(2) {
+  transform-origin: 0 0;
+}
 
+.menu-toggle span:nth-child(4) {
+  transform-origin: 0 100%;
+}
 
+.menu-toggle input:checked~span:nth-child(2) {
+  background-color: var(--j-hope);
+  transform: rotate(45deg) translate(-1px, 1px);
+}
 
+.menu-toggle input:checked~span:nth-child(4) {
+  background-color: var(--j-hope);
+  transform: rotate(-45deg) translate(-1px, 0);
+}
 
+.menu-toggle input:checked~span:nth-child(3) {
+  opacity: 0;
+  transform: scale(0); 
+}

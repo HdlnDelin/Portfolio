@@ -1,0 +1,74 @@
+/* For Smartphones */
+@media all and (max-width:670px) {
+    header { 
+      margin: 0; 
+        
+    }
+
+   .containers {
+      margin: 0;
+      width: 100%;
+    }
+
+    .container {
+      margin: 0;
+    }
+
+    .navigation {
+      display: none;
+    }
+
+    .mobile-nav {
+      display:flex;
+    }
+    .content  {
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      padding: 16px;
+    }
+
+    .home {
+      margin: 0;
+    }
+
+    .top-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+    }
+
+    .heading {
+      width: 100%;
+    }
+
+    .image {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 16px 0;
+    }
+    
+    .educations{
+      display: flex;
+      flex-wrap: wrap;
+     
+    
+   }
+
+   .education, .work {
+     display: flex;
+     flex-wrap: wrap;
+     margin: 15px 0;
+
+   }
+   
+   .footer{
+       padding: 0;
+       padding-bottom: 50px;
+       padding-top: 20px;
+
+   }
+    
+  }
