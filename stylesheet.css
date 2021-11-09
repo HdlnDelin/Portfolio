@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 :root {
   --Black: #0A0A0A;
   --Gray-Asparagus: #40563F;
