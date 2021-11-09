@@ -7,16 +7,17 @@
 }
 
 :root {
-  --RichBlack: #03071e;
-  --VenetianRed: #6a040f;
-  --Tangerine: #f48c06;
-  --SelectiveYellow: #ffba08;
+  --Black: #0A0A0A;
+  --Gray-Asparagus: #40563F;
+  --Wintergreen: #468A7F;
+  --Laurel : #B0BAA2;
+  --Russet: #8D4E23;
 }
 
 body {
   
   font-family: 'Playfair Display', serif;
-  color: var(--RichBlack);
+  color: var(--Black);
 }
 
 a {
@@ -26,24 +27,24 @@ a {
 .header-top {
   display: flex;
   justify-content: space-between;
-  background-color: var(--Tangerine);
+  background-color: var(--Wintergreen);
   align-items: center;
 }
 .medsos {
   padding: 5px 0;
-  background-color: var(--Tangerine);
+  background-color: var(--Wintergreen);
 }
 
 
 .medsos a{
   padding: 0 8px;
   font-size: 20px;
-  color:var(--RichBlack);
+  color:var(--Black);
 }
 .medsos a:hover {
   
 
-  color:var(--SelectiveYellow);
+  color:var(--Wintergreen);
 }
 
 .theme {
@@ -52,7 +53,7 @@ a {
 
 .theme:hover {
   cursor: pointer;
-  background-color: var(--VenetianRed);
+  background-color: var(--Gray-Asparagus);
 }
 
 .containers {
@@ -65,14 +66,14 @@ header {
   border: 1px solid;
   display:flex;
   justify-content: space-between;
-  background-color: var(--SelectiveYellow);
+  background-color: var(--Laurel );
 } 
 
 .navigation a {
   text-decoration: none;
   text-transform: uppercase;
   padding: 0 8px;
-  color: var(--RichBlack);
+  color: var(--Black);
   line-height: 72px;
   font-family: Montserrat;
   font-weight: 500;
@@ -80,7 +81,7 @@ header {
 }
 
 .navigation a:hover {
-  background-color: var(--VenetianRed);
+  background-color: var(--Gray-Asparagus);
   color: var(--j-hope);
   line-height: 72px;
 }
@@ -93,7 +94,7 @@ header {
 .mobile-nav{
   position: fixed;
   bottom:0;
-  background-color:var(--RichBlack);
+  background-color:var(--Black);
   z-index: 10;
   width: 100%;
   font-size: 25px;
@@ -104,7 +105,7 @@ header {
 }
 .mobile-nav a{
   text-decoration: none;
-  color:var(--SelectiveYellow);
+  color:var(--Laurel );
   
 }
 
@@ -117,7 +118,7 @@ header h1 {
 
 
 .home{
-  background-image:url(./image1/background22.png);
+  background-image:url(./image1/backgroundatas.png);
   height:500px;
   margin: 0;
   justify-content: center;
@@ -153,12 +154,14 @@ header h1 {
   padding-top: 80px;
   margin-bottom: 40px;
   
+  
 }
 
 .content {
   order: 1;
   flex: 3;
   margin-left: 32px;
+  
 }
 .content h1 {
   
@@ -168,7 +171,6 @@ header h1 {
   font-size: 48px;
   align-items: center;
   text-align: center;
-  
   
   
 
@@ -184,6 +186,7 @@ header h1 {
   line-height: 40px;
   text-align: justify;
   letter-spacing: -0.02em;
+  
 
 
 }
@@ -207,6 +210,7 @@ header h1 {
 .heading {
   display:flex;
   justify-content: center;
+ 
 }
 
 .container {
@@ -217,13 +221,14 @@ header h1 {
 
 .education {
   padding-bottom: 40px;
-  border-bottom: 1px solid var(--Tangerine); 
-  
+  border-bottom: 1px solid var(--Wintergreen); 
+ 
 }
   
 .educations {
   margin-top: 120px;
   padding-top: 80px;
+  
   
   
 }
@@ -237,7 +242,6 @@ header h1 {
 .contact-form {
   padding-top: 60px;
   margin-top: 260px;
-
 }
 
 input {
@@ -266,9 +270,9 @@ textarea {
 }
 
 .footer {
-  background-color: var(--Tangerine);
+  background-color: var(--Wintergreen);
   margin-top: 80px;
-  color:var(--RichBlack);
+  color:var(--Black);
   padding: 24px 134px;
 
   
@@ -278,14 +282,14 @@ textarea {
 }
 
 .darkmode {
-  color:var(--SelectiveYellow);
-  background-color: var(--RichBlack);
+  color:var(--Wintergreen);
+  background-color: var(--Black);
 }
 
 .darkmode .home h1,
 .darkmode .home p,
 .darkmode header,
 .darkmode .theme {
-  color: var(--RichBlack);
+  color: var(--Black);
 }
 
